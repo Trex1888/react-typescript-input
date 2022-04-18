@@ -8,9 +8,9 @@ function App() {
   const [people, setPeople] = useState<IState["people"]>([
     {
       name: "Bill",
-      url: "",
+      url: "https://images.fineartamerica.com/images/artworkimages/mediumlarge/3/phish-the-band-jas-stem.jpg",
       age: 44,
-      note: "hello ",
+      note: "The Phish",
     },
   ]);
 

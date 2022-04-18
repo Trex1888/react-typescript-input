@@ -19,7 +19,7 @@ const List: React.FunctionComponent<IProps> = ({ people }) => {
             <img className="List-img" src={person.url} alt="img" />
             <h2>{person.name}</h2>
           </div>
-          <p>{person.age} years old</p>
+          <p>{person.age} Years Old</p>
           <p className="List-note">{person.note}</p>
         </li>
       );
